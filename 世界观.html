@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>勇者传说：世界的危机</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', 'SimSun', serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            min-height: 100vh;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 30px;
+            background: linear-gradient(45deg, #FFD700, #FF6347);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+            animation: glow 2s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% { text-shadow: 0 0 30px rgba(255, 215, 0, 0.5); }
+            50% { text-shadow: 0 0 50px rgba(255, 215, 0, 0.8); }
+        }
+
+        .story-section {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .story-section h2 {
+            color: #FFD700;
+            margin-bottom: 20px;
+            font-size: 28px;
+            text-align: center;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .story-section p {
+            font-size: 18px;
+            line-height: 2;
+            margin-bottom: 15px;
+            text-indent: 2em;
+            text-align: justify;
+        }
+
+        .story-section .highlight {
+            color: #FF6347;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(255, 99, 71, 0.5);
+        }
+
+        .story-section .highlight-blue {
+            color: #1E90FF;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(30, 144, 255, 0.5);
+        }
+
+        .start-button {
+            display: block;
+            margin: 50px auto 0;
+            padding: 20px 60px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(45deg, #FFD700, #FF6347);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+            animation: pulse 2s infinite;
+        }
+
+        .start-button:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 12px 35px rgba(255, 215, 0, 0.6);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .scroll-indicator {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="scroll-indicator">↓ 向下滚动了解世界危机 ↓</div>
+        
+        <h1 class="title">⚔️ 勇者传说：奔奔的净化</h1>
+
+        <div class="story-section">
+            <h2>第一章：世界的崩坏</h2>
+            <p>
+                曾经繁荣的<span class="highlight">阿尔兰特大陆</span>，如今正面临着前所未有的危机。
+                一种名为<span class="highlight">"奔奔"</span>的神秘生物突然泛滥成灾，
+                它们像瘟疫一样席卷了整个王国。
+            </p>
+            <p>
+                这些奔奔原本只是<span class="highlight-blue">普通的魔法生物</span>，
+                但不知为何突然开始疯狂繁殖。它们吞噬资源、破坏建筑、
+                扰乱魔法秩序，整个世界<span class="highlight">濒临毁灭</span>。
+            </p>
+            <p>
+                王国的智者们发现，唯一能阻止奔奔的方法，
+                就是通过<span class="highlight">"净化仪式"</span>来削弱它们的力量。
+                但这个过程需要勇者掌握大量的净化知识，
+                识别每种奔奔的<span class="highlight-blue">弱点</span>并给予精准打击。
+            </p>
+        </div>
+
+        <div class="story-section">
+            <h2>第二章：勇者的使命</h2>
+            <p>
+                你，是一名<span class="highlight">被选中的勇者</span>。
+                肩负着拯救世界的重任，你踏上了净化奔奔的征程。
+            </p>
+            <p>
+                在你的<span class="highlight-blue">勇者之书中</span>，记录着以下信息：
+            </p>
+            <p>
+                • <span class="highlight">战斗训练：</span>识别并净化不同等级的奔奔<br>
+                • <span class="highlight">勇者向导：</span>获得向导的指引，记录战斗日志<br>
+                • <span class="highlight">奔奔图鉴：</span>收集并查看已净化的奔奔信息<br>
+                • <span class="highlight">净化任务：</span>重新净化那些复苏的奔奔<br>
+                • <span class="highlight">拯救进度：</span>追踪你的净化成果和勇者等级
+            </p>
+        </div>
+
+        <div class="story-section">
+            <h2>第三章：战斗系统</h2>
+            <p>
+                每种奔奔都有<span class="highlight">独特的特征</span>和<span class="highlight-blue">净化方法</span>。
+                你需要：
+            </p>
+            <p>
+                1. <span class="highlight">聆听奔奔的叫声</span>，识别它的种类<br>
+                2. 记住它的<span class="highlight-blue">净化方法</span><br>
+                3. 在净化任务中<span class="highlight">正确选择</span>对应的净化技能<br>
+                4. 积累净化经验，提升勇者等级
+            </p>
+            <p>
+                随着你净化的奔奔越来越多，
+                世界将逐步<span class="highlight">恢复生机</span>。
+                而隐藏在奔奔泛滥背后的<span class="highlight-blue">真相</span>，也将逐渐浮出水面...
+            </p>
+        </div>
+
+        <div class="story-section">
+            <h2>终章：踏上征程</h2>
+            <p>
+                勇者，阿尔兰特大陆的未来<span class="highlight">掌握在你手中</span>。
+                拿起你的圣剑，打开勇者之书，
+                开始这场<span class="highlight-blue">拯救世界</span>的伟大冒险吧！
+            </p>
+            <p style="text-align: center; font-style: italic; color: #FFD700;">
+                "每一只被净化的奔奔，都是世界重获希望的一步。"
+            </p>
+        </div>
+
+        <button class="start-button" onclick="startAdventure()">
+            🗡️ 开始净化之旅
+        </button>
+    </div>
+
+    <script>
+        // 添加滚动效果
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.title');
+            const speed = scrolled * 0.5;
+            if (parallax) {
+                parallax.style.transform = `translateY(${speed}px)`;
+            }
+        });
+
+        // 开始游戏函数
+        function startAdventure() {
+            // 跳转到游戏主页面
+            window.location.href = 'https://blazewings.github.io/xiaobenben/';
+        }
+
+        // 添加渐入动画
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        });
+
+        document.querySelectorAll('.story-section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(50px)';
+            section.style.transition = 'opacity 0.8s, transform 0.8s';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
